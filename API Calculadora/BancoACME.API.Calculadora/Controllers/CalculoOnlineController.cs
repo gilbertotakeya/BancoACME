@@ -17,9 +17,9 @@ namespace BancoACME.API.CalculadoraOnline.Controllers
         }
 
         [HttpGet("CalculoJuros")]
-        public IActionResult CalculoJuros()
+        public async Task<ActionResult<double>> CalculoJuros()
         {
-            return View();
+            return await Calculadora.calculaJuros(1000, 1);
         }
     }
 }
