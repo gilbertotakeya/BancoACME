@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "API/DadosFinanceiros/TaxaJuros",
+      "launchUrl": "DadosFinanceiros/TaxaJuros",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "BancoACMEAPIDados": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "API/DadosFinanceiros/TaxaJuros",
+      "launchUrl": "DadosFinanceiros/TaxaJuros",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

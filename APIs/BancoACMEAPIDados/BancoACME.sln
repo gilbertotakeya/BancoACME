@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.API.Dados", "Banc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.Repositorio", "..\BancoACME.Repositorio\BancoACME.Repositorio.csproj", "{885B4C44-EABC-4A0F-BCAB-739640893802}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.Modelo", "..\BancoACME.Modelo\BancoACME.Modelo.csproj", "{C7395294-B364-4A65-8270-C75C697DB072}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.VisaoModelo", "..\BancoACME.Modelo\BancoACME.VisaoModelo.csproj", "{C7395294-B364-4A65-8270-C75C697DB072}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.Interface", "..\BancoACME.Interface\BancoACME.Interface.csproj", "{31CFF48F-C670-44BC-969C-B1A9AFB47BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.API.Calculadora", "..\BancoACME.API.Calculadora\BancoACME.API.Calculadora.csproj", "{F94D8082-3C1C-49F7-BC1E-BCE560A6F98A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoACME.API.CalculadoraOnline", "..\BancoACME.API.Calculadora\BancoACME.API.CalculadoraOnline.csproj", "{F94D8082-3C1C-49F7-BC1E-BCE560A6F98A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3AA1834D-060B-4ABB-AB89-D1D7B674203E}"
 	ProjectSection(SolutionItems) = preProject

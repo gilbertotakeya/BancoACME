@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BancoACME.API.Dados.Controllers
 {
-    [Route("API/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DadosFinanceirosController : ControllerBase
     {

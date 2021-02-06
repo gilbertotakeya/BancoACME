@@ -13,4 +13,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BancoACME.Interface\BancoACME.Interface.csproj" />
+    <ProjectReference Include="..\BancoACME.Repositorio\BancoACME.Repositorio.csproj" />
+  </ItemGroup>
+
 </Project>
