@@ -38,13 +38,14 @@ namespace BancoACME.API.Calculadora
                 c.SwaggerDoc("v1",
                     new Info
                     {
-                        Title = "Comparador de Fundos - Meuportfol.io",
+                        Title = "Banco ACME - API - Calculadora Online",
                         Version = "v1",
-                        Description = "Comparador de Fundos - Meuportfol.io. Para utilização nos procure para obter credencial",
+                        Description = "Banco ACME - API - Calculadora Online Financeira",
                         Contact = new Contact
                         {
-                            Name = "Felipe Bossolani",
-                            Url = "https://meuportfol.io"
+                            Name = "Gilberto Junior",
+                            Url = "https://www.eficazti.com.br",
+                            Email = "gilbertotakeya@yahoo.com.br"
                         }
                     });
                 c.CustomSchemaIds(x => x.FullName); //Essa linha deve ser inserida em casos que há classes com mesmo nome em namespaces diferentes
@@ -74,7 +75,7 @@ namespace BancoACME.API.Calculadora
             // Especificando o Endpoint JSON Swagger.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comparador de Fundos - Meuportfol.io");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banco ACME - API - Calculadora Online Financeira");
                 c.RoutePrefix = string.Empty; //Adicione algum proefixo da URL caso queira
             });
 

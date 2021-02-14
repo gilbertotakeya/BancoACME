@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace BancoACME.Repositorio
 {
     public class Calculadora : ICalculadora
-    {        public async Task<double> calculaJuros(double valorInicial, double meses)
+    {        public async Task<double> calculaJuros(double valorInicial, int meses)
         {
             var handler = new HttpClientHandler() { AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate };
             using (HttpClient client = new HttpClient(handler) { Timeout = TimeSpan.FromSeconds(30) })

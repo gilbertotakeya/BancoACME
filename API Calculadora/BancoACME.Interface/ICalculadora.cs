@@ -5,6 +5,6 @@ namespace BancoACME.Interface
 {
     public interface ICalculadora
     {
-        Task<double> calculaJuros(double valorInicial, double meses);
+        Task<double> calculaJuros(double valorInicial, int meses);
     }
 }
