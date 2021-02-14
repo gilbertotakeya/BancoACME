@@ -29,7 +29,7 @@ namespace BancoACME.Repositorio
                     }
                 }
 
-                var valorFinal = valorInicial * (1 + taxaJuros) * meses;
+                var valorFinal = valorInicial * Math.Pow((1 + taxaJuros), meses);
 
                 return valorFinal;
             }
