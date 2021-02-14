@@ -16,7 +16,7 @@ namespace BancoACME.API.CalculadoraOnline.Controllers
             Calculadora = calculadora;
         }
 
-        [HttpGet("CalculaJuros")]
+        [HttpGet("calculaJuros")]
         public async Task<ActionResult<double>> CalculoJuros(double ValorInicial, int quantidadeMeses)
         {
             if (ValorInicial <= 0)
@@ -26,6 +26,12 @@ namespace BancoACME.API.CalculadoraOnline.Controllers
                 return 0;
 
             return await Calculadora.calculaJuros(ValorInicial, quantidadeMeses);
+        }
+
+        [HttpGet("showMeTheCode")]
+        public string ShowMeTheCode()
+        {
+            return Calculadora.showMeTheCode();
         }
     }
 }
