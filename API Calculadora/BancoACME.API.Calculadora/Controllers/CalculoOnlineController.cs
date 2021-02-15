@@ -11,6 +11,7 @@ namespace BancoACME.API.CalculadoraOnline.Controllers
     public class CalculoOnlineController : Controller
     {
         ICalculadora Calculadora;
+    
         public CalculoOnlineController(ICalculadora calculadora)
         {
             Calculadora = calculadora;
@@ -19,6 +20,7 @@ namespace BancoACME.API.CalculadoraOnline.Controllers
         [HttpGet("calculaJuros")]
         public async Task<ActionResult<double>> CalculoJuros(double ValorInicial, int quantidadeMeses)
         {
+            //throw new SystemException("ERRO");
             if (ValorInicial <= 0)
                 return 0;
 
