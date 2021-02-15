@@ -31,7 +31,7 @@ namespace BancoACME.API.Calculadora
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddScoped<ICalculadora, BancoACME.Repositorio.Calculadora>();
+            services.AddScoped<ICalculadora, BancoACME.Servicos.Calculadora>();
 
             services.AddSwaggerGen(c =>
             {
@@ -62,8 +62,6 @@ namespace BancoACME.API.Calculadora
                 }
             });
         }
-
-
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

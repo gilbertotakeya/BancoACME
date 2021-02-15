@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BancoACME.Repositorio
+namespace BancoACME.Servicos
 {
     public class Calculadora : ICalculadora
     {

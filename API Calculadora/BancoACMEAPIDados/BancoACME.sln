@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoACME.Repositorio", "..\BancoACME.Repositorio\BancoACME.Repositorio.csproj", "{885B4C44-EABC-4A0F-BCAB-739640893802}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoACME.Servicos", "..\BancoACME.Repositorio\BancoACME.Servicos.csproj", "{885B4C44-EABC-4A0F-BCAB-739640893802}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoACME.VisaoModelo", "..\BancoACME.Modelo\BancoACME.VisaoModelo.csproj", "{C7395294-B364-4A65-8270-C75C697DB072}"
 EndProject

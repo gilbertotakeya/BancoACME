@@ -30,7 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BancoACME.Interface\BancoACME.Interface.csproj" />
-    <ProjectReference Include="..\BancoACME.Repositorio\BancoACME.Repositorio.csproj" />
+    <ProjectReference Include="..\BancoACME.Repositorio\BancoACME.Servicos.csproj" />
   </ItemGroup>
 
 </Project>
