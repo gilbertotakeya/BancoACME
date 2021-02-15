@@ -8,14 +8,14 @@ adicione a URL do seu projeto na linha 22;<br>
 Realizado este processo, execute o deploy da aplicação.<br>
 
 Esta consulta a API contém, 2 Projetos sendo:
-1) BancoACME\APIs: Dicionário de dados, onde ficará todos as definições do BancoACME
--- BancoACME.API.Dados - Dicionário de dados do Banco ACME
--- BancoACME.Repositorio - Repositorio de dados do banco ACME
--- BancoACME.VisaoModelo - As views do projeto
+1) BancoACME\APIs: Dicionário de dados, onde ficará todos as definições do BancoACME<br>
+-- BancoACME.API.Dados - Dicionário de dados do Banco ACME<br>
+-- BancoACME.Repositorio - Repositorio de dados do banco ACME<br>
+-- BancoACME.VisaoModelo - As views do projeto<br>
 
-2) BancoACME\API Calculadora: Projeto da API onde o sistema realizará o cálculos online de juros compostos e retornará a informação do repositório. 
--- BancoACME.API.CalculadoraOnline - Dicionário de dados do Banco ACME
--- BancoACME.API.CalculadoraOnline.Test - Teste da API de Calculo de Juros
--- BancoACME.Interface - Interface do projeto
--- BancoACME.Repositorio - Repositorio/Microsserviços do projeto
--- BancoACME.VisaoModelo - As views do projeto
+2) BancoACME\API Calculadora: Projeto da API onde o sistema realizará o cálculos online de juros compostos e retornará a informação do repositório.<br>
+-- BancoACME.API.CalculadoraOnline - Dicionário de dados do Banco ACME<br>
+-- BancoACME.API.CalculadoraOnline.Test - Teste da API de Calculo de Juros<br>
+-- BancoACME.Interface - Interface do projeto<br>
+-- BancoACME.Repositorio - Repositorio/Microsserviços do projeto<br>
+-- BancoACME.VisaoModelo - As views do projeto<br>
